@@ -1,0 +1,86 @@
+		@font-face {
+			font-family: unkempt;
+			src: url('fonts/Unkempt-Bold.ttf');
+		}
+		body {
+			margin: 0px;
+			background-color: #fce2db;
+		}
+		h1 {
+			margin: 0px;
+		}
+		h2 {
+			color: #af460f;
+			margin-top: 50px;
+		}
+
+		.clearfloat {
+			clear: both;
+		}
+
+		.wrapper {
+			background-color: #FFF;
+			width: 1060px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		#footer {
+			background-color: #af460f;
+			color: white;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			font-size: 0.8em;
+		}
+		#foot{
+			margin: 0px;
+		}
+
+		#nav {
+			width: 600px;
+			margin: auto;
+		}
+		#nav ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+		#nav li {
+			background-color: #fce2db;
+			/* 600px / 2 = 300px */
+			width: 300px;
+			float: left;
+			text-align: center;
+			position: relative;
+		}
+		#nav li:hover {
+			background-color: pink;
+		}
+		#nav a{
+			text-decoration: none;
+			height: 40px;
+			line-height: 40px;
+			display: block;
+			color: black;
+		}
+		#nav ul ul {
+			position: absolute;
+			top: 40px; /*height of each menu*/
+			left: 0px;
+			display: none;
+		}
+		#nav li:hover > ul {
+			display: block;
+		}
+		#nav-wrapper {
+			background-color: #fce2db;
+			margin: auto;
+			width: 600px;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			z-index: 1;
+		}
+		#highlight {
+			background-color: pink;
+		}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reply 1988</title>
+
+	<link rel="stylesheet" href="main.css">
+
+	<style>
+		#header {
+			background-image: url("img/front.jpg");
+			font-family: unkempt, sans-serif;
+			height: 450px;
+			background-size: cover;
+			background-position: center;
+			color: #434e52;
+			text-align: center;
+			line-height: 450px;
+			font-size: 50px;
+			text-shadow: 0px 0px 10px #FFF;
+		}
+		#main {
+			background-color: #FFF;
+			width: 1000px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 15px;
+			float:left;
+		}
+
+		.img-container{
+			float: left;
+			margin: 10px;
+			border: solid 2px black;
+			background-color: lightgrey;
+			overflow: hidden;
+			position: relative;
+		}
+		.img-container img {
+			height: 100%;
+			width: auto;
+		}
+		.img-container .width-100 {
+			width: 100%;
+			height: auto;
+		}
+		.img-container:hover .caption {
+			display: block;
+		}
+
+		.row1 {
+			/*  1000 px - 15px = 975px
+				975px - 10 x 3 - 4 * 2= 937px
+				937px / 2 = 468.5px */
+			width: 468.5px;
+			height: 300px;
+		}
+		.row1 >.caption {
+			padding-top: 150px;
+		}
+
+		.row2 {
+			/*  1000 px - 15px = 975px
+				975px - 10 x 5 - 8 * 2= 909px
+				909px / 4 = 224.75px */
+			width: 224.75px;
+			height: 200px;
+		}
+		.row2 >.caption {
+			padding-top: 100px;
+		}
+
+		.row3 {
+			/*  1000 px - 15px = 975px
+				975px - 10 x 4 - 6 * 2= 923px
+				923px / 3 = 307.33px */
+			width: 307.33px;
+			height: 200px;
+		}
+		.row3 >.caption {
+			padding-top: 100px;
+		}
+
+		.row4 {
+
+			/*  1000 px - 15px = 975px
+				975px - 10 x 3 - 4 * 2= 937px
+				937px / 2 = 468.5px */
+			width: 468.5px;
+			height: 300px;
+		}
+		.row4 >.caption {
+			padding-top: 150px;
+		}
+
+		.caption {
+			background-color: #000;
+			background-color: rgba(0, 0, 0, 0.6);
+			color: #FFF;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			text-align: center;
+
+			/*opacity: 0.6;*/
+			display: none;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="header">
+	<h1>Gallery</h1>
+	</div> <!-- # header -->
+
+	<div id="nav-wrapper">
+		<div id="nav">
+
+			<ul>
+			<li><a href="InterestsPage.html">Home</a>
+				<ul>
+					<li><a href="InterestsPage.html#general-information">General Information</a></li>
+					<li><a href="InterestsPage.html#plot-overview">Plot Overview</a></li>
+					<li><a href="InterestsPage.html#review">Review</a></li>
+				</ul>
+			</li>
+			<li><a id="highlight" href="gallery.html">Gallery</a></li>
+			</ul>
+
+			<div class="clearfloat"></div>
+		</div> <!-- #nav -->
+	</div> <!-- #nav-warpper -->
+
+	<div class="wrapper">
+
+		<div id="main">
+
+			<h2>Photos</h2>
+
+			<div class="img-container">
+				<div class="row1">	
+					<img class="width-100" src="img/1-1.jpg" alt="1-1">
+					<div class="caption">
+						Hi :-)
+					</div>
+				</div> <!-- #.row1 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row1">
+					<img src="img/1-2.jpg" alt="1-2">
+					<div class="caption">
+						group selfie
+					</div>
+				</div> <!-- #.row1 -->
+			</div> <!-- #img-container -->
+
+
+			<div class="clearfloat"></div>
+
+			<div class="img-container">
+				<div class="row2">
+					<img src="img/2-1.jpg" alt="2-1">
+					<div class="caption">
+						Hyeri & Park Bo-gum
+					</div>	
+				</div> <!-- #.row2 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row2">
+					<img src="img/2-2.jpg" alt="2-2">
+					<div class="caption">
+						Hyeri & Ryu Jun-yeol
+					</div>	
+				</div> <!-- #.row2 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row2">
+					<img class="width-100" src="img/2-3.jpg" alt="2-3">
+					<div class="caption">
+						Cheese ~
+					</div>
+				</div> <!-- #.row2 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row2">
+					<img class="width-100" src="img/2-4.jpg" alt="2-4">
+					<div class="caption">
+						We are cute, right?
+					</div>
+				</div> <!-- #.row2 -->
+			</div> <!-- #img-container -->
+
+
+			<div class="clearfloat"></div>
+
+			<div class="img-container">
+				<div class="row3">	
+					<img class="width-100" src="img/3-1.jpeg" alt="3-1">
+					<div class="caption">
+						Whose birthday?
+					</div>
+				</div> <!-- #.row3 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row3">
+					<img class="width-100" src="img/3-2.jpg" alt="3-2">
+					<div class="caption">
+						sweet family
+					</div>
+				</div> <!-- #.row3 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row3">
+					<img class="width-100" src="img/3-3.jpg" alt="3-3">
+					<div class="caption">
+						family portrait
+					</div>
+				</div> <!-- #.row3 -->
+			</div> <!-- #img-container -->
+
+			<div class="clearfloat"></div>
+
+			<div class="img-container">
+				<div class="row4">	
+					<img class="width-100" src="img/4-1.png" alt="4-1">
+					<div class="caption">
+						We are so happy!
+					</div>
+				</div> <!-- #.row4 -->
+			</div> <!-- #img-container -->
+
+			<div class="img-container">
+				<div class="row4">
+					<img src="img/4-2.jpg" alt="4-2">
+					<div class="caption">
+						I'm about to cry...
+					</div>
+				</div> <!-- #.row4 -->
+			</div> <!-- #img-container -->
+
+		</div> <!-- #main -->
+
+	</div> <!-- #wrapper -->
+
+	<div class="clearfloat"></div>
+
+	<div id="footer">
+		<p id="foot">University of Southern California &copy; 2020</p>
+	</div> <!-- #footer -->
+</body>
+</html>

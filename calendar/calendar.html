@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar | Feb. 2020</title>
+	<style>
+		body {
+			margin: 0px;
+			background-color: #dab8f3;
+		}
+		h1 {
+			margin: 0px;
+		}
+		h2 {
+			color: #900;
+			margin-top: 50px;
+		}
+		.grey {
+			color: grey;
+		}
+		#header {
+			background-image: url('img/background.png');
+			background-size: cover;
+			background-position: center;
+			color: #FFF;
+			font-size: 1.5em;
+			text-align: center;
+			text-shadow: 0px 0px 10px #000;
+			height: 300px;
+			line-height: 300px;
+		}
+		#main {
+			width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0px;
+			background-color: #FFF
+		}
+		#footer {
+			background-color: #3e206d;
+			color: #FFF;
+			text-align: center;
+			height: 75px;
+			line-height: 75px;
+			font-size: 0.8em;
+		}
+		th {
+			border: 1px solid #CCC;
+			padding: 10px 0px;
+
+			/*
+				Width od #main = 800px
+				# of columns = 7
+				# of vertical borders = 8
+				Width of each border = 1px
+
+				Area for each columns:
+					800px - 8px = 792 px
+					792px / 7 = 113.14px
+
+				Browsers will round fractions
+			*/
+
+			width: 113.14px;
+		}
+		td {
+			border: 1px solid #CCC;
+			padding: 10px 10px;
+			width: 113.14px;
+			height: 90px;
+			vertical-align: text-top;
+			text-align: right;
+
+		}
+		table {
+			border-collapse: collapse;
+			text-align: center;
+		}
+		#birthday{
+			color: white;
+			background-image: url('img/birthday.png');
+			background-size: cover;
+		}
+		#valentine{
+			color: white;
+			background-image: url('img/valentine.png');
+			background-size: cover;
+			background-position: center;
+		}
+		#president{
+			color: white;
+			background-image: url('img/president.png');
+			background-size: cover;
+			background-position: center;
+		}
+		.name {
+			background-color: black;
+			opacity: 80%;
+			border-radius: 15px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="main">
+
+	<div id="header">
+		<h1>February 2020</h1>
+	</div> <!-- #header -->
+
+	<table>
+
+		<tr>
+			<th>Sun</th>
+			<th>Mon</th>
+			<th>Tue</th>
+			<th>Wed</th>
+			<th>Thu</th>
+			<th>Fri</th>
+			<th>Sat</th>
+		</tr>
+
+		<tr>
+			<td class="grey">26</td>
+			<td class="grey">27</td>
+			<td class="grey">28</td>
+			<td class="grey">29</td>
+			<td class="grey">30</td>
+			<td class="grey">31</td>
+			<td>1</td>
+		</tr>
+
+		<tr>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+			<td>8</td>
+		</tr>
+
+		<tr>
+			<td>9</td>
+			<td>10</td>
+			<td id="birthday">11
+				<div class="name">
+				<p>My Birthday</p>
+				</div>
+			</td>
+			<td>12</td>
+			<td>13</td>
+			<td id="valentine">14
+				<div class="name">
+				<p>Valentine's Day</p>
+				</div>
+			</td>
+			<td>15</td>
+		</tr>
+
+		<tr>
+			<td>16</td>
+			<td id="president">17
+				<div class="name">
+				<p>President's Day</p>
+				</div>
+			</td>
+			<td>18</td>
+			<td>19</td>
+			<td>20</td>
+			<td>21</td>
+			<td>22</td>
+		</tr>
+
+		<tr>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>
+			<td>27</td>
+			<td>28</td>
+			<td>29</td>
+		</tr>
+
+	</table> <!-- #table -->
+
+	<div id="footer">
+		Designed & Coded by Nancy R
+	</div> <!-- #footer -->
+
+	</div> <!-- #main -->
+</body>
+</html>
