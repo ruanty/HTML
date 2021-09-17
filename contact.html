@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="This is the contact page of this website that gives the viewers the opportunity to message website editor">
+
+	<link rel="stylesheet" href="main.css">
+
+	<title>Contact Page</title>
+
+	<style>
+		h2{
+			text-align: left;
+			float:left;
+		}
+
+		.margin{
+			margin-left: 50px;
+		}
+
+		.form-row {
+			margin: 10px 0px;
+		}
+		.main-label {
+			display: block;
+			width: 200px;
+			float: left;
+		}
+		button {
+			padding: 10px 20px;
+		}
+		#submit-btn {
+			background-color: #000090;
+			color: #FFF;
+		}
+		form{
+			margin-left: 50px;
+		}
+
+		img{
+			width: 100%;
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+
+	</style>
+
+</head>
+<body>
+	<div id="nav-wrapper">
+		<div id="nav">
+			<a href="homepage.html">Home</a>
+			<a href="animalcrossing.html#">Animal Crossing</a>
+			<a href="marioparty.html">Mario Party</a>
+			<a id="active-nav" href="contact.html">Contact</a>
+		
+			<div class="clearfloat"></div>
+
+		</div> <!-- #nav -->
+	</div> <!-- #nav-wrapper -->
+
+	<div id="main">
+		<h2 class="margin">Contact Us</h2>
+		<div class="clearfloat"></div>
+
+		<p class="margin">For questions, email <a href="mailto:nitendo@gmail.com">nitendo@gmail.com</a>.</p>
+
+		<form>
+
+		<div class="form-row">
+			<label class="main-label" for="name-id">Name:</label>
+			<input id="name-id" type="text" placeholder="Nancy Ruan">
+		</div> <!-- .form-row -->
+
+		<div class="form-row">
+			<label class="main-label" for="email-id">Email:</label>
+			<input id="email-id" type="email" placeholder="truan@usc.edu">
+		</div> <!-- .form-row -->
+
+		<div class="form-row">
+			<label class="main-label">Subscribe:</label>
+
+			<label>
+				<input type="checkbox">
+				Newsletters
+			</label>
+
+			<label>
+				<input type="checkbox">
+				Nintendo Updates
+			</label>
+
+		</div> <!-- .form-row -->
+
+		<div class="form-row">
+			<label class="main-label" for="msg-id">Message:</label>
+			<textarea id="msg-id" placeholder="Hello..."></textarea>
+		</div> <!-- .form-row -->
+
+		<div class="form-row">
+			<button id="submit-btn" type="submit">Send</button>
+			<button type="reset">Clear</button>
+		</div> <!-- .form-row -->
+
+		</form>
+
+		<img src="img/4-1.jpg" alt="Nintendo">
+
+	</div> <!-- #main -->
+
+	<div id="footer">
+	Designed and Coded by Nancy Ruan
+</div> <!-- #footer -->
+
+</body>
+</html>

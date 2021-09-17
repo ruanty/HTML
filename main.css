@@ -1,0 +1,62 @@
+@font-face{
+	font-family: Kefa;
+	src: url('font/Kefa.TTF');
+}
+
+.clearfloat {
+	clear: both;
+}
+body {
+	font-family: Kefa, cursive;
+	margin: 0px;
+	background-color: #d80018;
+}
+h1 {
+	margin: 0px;
+}
+h2 {
+	background-color: #000090;
+	color:#FFF;
+	text-align: center;
+}
+#main {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	background-color: #FFF;
+}
+#footer {
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #f0a800;
+	color: #FFF;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 0.8em;
+}
+
+#nav {
+	width: 820px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav > a {
+	text-decoration: none;
+	height: 50px;
+	line-height: 50px;
+	/* 820px / 4 = 205px */
+	width: 205px;
+	display: block;
+	float: left;
+	text-align: center;
+	background-color: #309000;
+	color: #FFF;
+}
+#nav > a:hover, #nav > #active-nav {
+	background-color: #f0a800;
+	color: #FFF;
+}
